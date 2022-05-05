@@ -1850,6 +1850,25 @@
     react-router-dom "6.0.0-beta.0"
     react-use "^17.2.4"
 
+"@backstage/plugin-home@^0.4.20":
+  version "0.4.20"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-home/-/plugin-home-0.4.20.tgz#ba66cad0c7c275a3add56fc09d3c550b4aa23d5d"
+  integrity sha512-OhOd69fZwbOMifb8+DkqJx72q8q7GB6btLho2JdGNqKv+i4hWmnodwNp6ibs32guPY6alqj7tsjUleOuVFASPA==
+  dependencies:
+    "@backstage/catalog-model" "^1.0.1"
+    "@backstage/config" "^1.0.0"
+    "@backstage/core-components" "^0.9.3"
+    "@backstage/core-plugin-api" "^1.0.1"
+    "@backstage/plugin-catalog-react" "^1.0.1"
+    "@backstage/plugin-stack-overflow" "^0.1.0"
+    "@backstage/theme" "^0.2.15"
+    "@material-ui/core" "^4.12.2"
+    "@material-ui/icons" "^4.9.1"
+    "@material-ui/lab" "4.0.0-alpha.57"
+    lodash "^4.17.21"
+    react-router "6.0.0-beta.0"
+    react-use "^17.2.4"
+
 "@backstage/plugin-org@^0.5.4":
   version "0.5.4"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-org/-/plugin-org-0.5.4.tgz#aeb574b2478f0580c0e24e5daab3978ca84c2cac"
@@ -2103,6 +2122,25 @@
     react-router "6.0.0-beta.0"
     react-router-dom "6.0.0-beta.0"
     react-text-truncate "^0.18.0"
+    react-use "^17.2.4"
+
+"@backstage/plugin-stack-overflow@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-stack-overflow/-/plugin-stack-overflow-0.1.0.tgz#5f5ee8b30d684b7c71f746fe923c16875a62d621"
+  integrity sha512-ti0eEwkiu+cmihIISiEA5tqQil6gISyy34flQyxL0wukLNrKAOYCq+lgrN+N/MqJijXoy/FugWhX24+PKsocLQ==
+  dependencies:
+    "@backstage/config" "^1.0.0"
+    "@backstage/core-components" "^0.9.3"
+    "@backstage/core-plugin-api" "^1.0.1"
+    "@backstage/plugin-home" "^0.4.20"
+    "@backstage/plugin-search-common" "^0.3.3"
+    "@backstage/theme" "^0.2.15"
+    "@material-ui/core" "^4.12.2"
+    "@material-ui/icons" "^4.9.1"
+    "@testing-library/jest-dom" "^5.10.1"
+    cross-fetch "^3.1.5"
+    lodash "^4.17.21"
+    qs "^6.9.4"
     react-use "^17.2.4"
 
 "@backstage/plugin-tech-radar@^0.5.11":
@@ -5037,7 +5075,7 @@
   resolved "https://registry.yarnpkg.com/@types/range-parser/-/range-parser-1.2.4.tgz#cd667bcfdd025213aafb7ca5915a932590acdcdc"
   integrity sha512-EEhsLsD6UsDM1yFhAvy0Cjr6VwmpMWqFBCb9w07wVugF7w9nfajxLuVmngTIpgS6svCnm6Vaw+MZhoDCKnOfsw==
 
-"@types/react-dom@*", "@types/react-dom@<18.0.0", "@types/react-dom@^17":
+"@types/react-dom@*", "@types/react-dom@<18.0.0":
   version "17.0.16"
   resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-17.0.16.tgz#7caba93cf2806c51e64d620d8dff4bae57e06cc4"
   integrity sha512-DWcXf8EbMrO/gWnQU7Z88Ws/p16qxGpPyjTKTpmBSFKeE+HveVubqGO1CVK7FrwlWD5MuOcvh8gtd0/XO38NdQ==
