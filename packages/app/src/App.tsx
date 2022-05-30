@@ -37,6 +37,7 @@ import { HomePage } from './components/home/HomePage';
 
 import { githubAuthApiRef } from '@backstage/core-plugin-api';
 import { SignInPage } from '@backstage/core-components';
+import { KaluzagraphPage } from '@internal/plugin-kaluzagraph';
 
 const app = createApp({
     apis,
@@ -93,6 +94,7 @@ const routes = (
     </Route>
         <Route path="/settings" element={<UserSettingsPage />} />
         <Route path="/catalog-graph" element={<CatalogGraphPage />} />
+        <Route path="/kaluzagraph" element={<KaluzagraphPage />}/>
         </FlatRoutes>
 );
 

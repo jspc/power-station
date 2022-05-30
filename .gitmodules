@@ -1,0 +1,3 @@
+[submodule "plugins/kaluzagraph"]
+	path = plugins/kaluzagraph
+	url = git@github.com:jspc/dgraph-experiment
